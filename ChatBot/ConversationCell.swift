@@ -19,5 +19,7 @@ class ConversationCell: UITableViewCell {
         dateLabel.text = dateFormatter.string(from: message.date as Date)
         messageLabel.text = message.text
     }
+    
+    
 
 }

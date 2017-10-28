@@ -4,11 +4,11 @@ struct QuestionAnswerer {
         let lowerQuestion = question.lowercased()
         
         if lowerQuestion.hasPrefix("hello") {
-            return "Why, hello there!"
-        } else if lowerQuestion == "where are the cookies?" {
-            return "In the cookie jar!"
-        } else if lowerQuestion.hasPrefix("where") {
-            return "To the North!"
+            return "Hello there!"
+        } else if lowerQuestion == "i want to get a loan" {
+            return "Of course you want. Everybody does!"
+        } else if lowerQuestion.hasPrefix("loan") {
+            return "I will help you get the loan!"
         } else {
             let defaultNumber = question.characters.count % 3
             
